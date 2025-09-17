@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1a1a1c;
+  color: #ffff;
+  padding: 25px;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 80%;
+  margin: 30px;
+  border-collapse: collapse;
+}
+
+tr > td:first-child {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+table tbody tr {
+  border-bottom: 2px solid grey;
+}
+
+td {
+  padding: 20px 0px;
+  border: none;
+  width: 240px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+img {
+  width: 45px;
+  height: 45px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
