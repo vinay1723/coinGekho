@@ -23,7 +23,7 @@ function Tablerow({ coin }) {
           color: `${coin.price_change_percentage_24h < 0 ? "red" : "green"}`,
         }}
       >
-        %{coin.price_change_percentage_24h.toFixed(2)}
+        {coin.price_change_percentage_24h.toFixed(2)}%
       </td>
       <td>${coin.total_volume.toLocaleString("en-IN")}</td>
     </tr>
