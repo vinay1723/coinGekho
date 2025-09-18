@@ -24,7 +24,15 @@ function App() {
   }, []);
   return (
     <table>
-      <thead></thead>
+      <thead>
+        <tr>
+          <th>Coin</th>
+          <th>Symbol</th>
+          <th>Current Price</th>
+          <th>Price Change %</th>
+          <th>Total Volume</th>
+        </tr>
+      </thead>
       <tbody>
         {coinsData &&
           coinsData.map((coin) => (

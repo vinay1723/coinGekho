@@ -36,6 +36,14 @@ table tbody tr {
   border-bottom: 2px solid grey;
 }
 
+table thead tr {
+  border-bottom: 2px solid grey;
+}
+
+/* tr th:first-child {
+
+} */
+
 td {
   padding: 20px 0px;
   border: none;
@@ -43,6 +51,16 @@ td {
   font-family: Inter;
   font-weight: 400;
   font-size: 16px;
+  text-align: center;
+}
+
+th {
+  padding: 20px 0px;
+  border: none;
+  width: 240px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 18px;
   text-align: center;
 }
 
